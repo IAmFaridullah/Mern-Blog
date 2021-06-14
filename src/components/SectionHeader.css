@@ -1,0 +1,19 @@
+.sectionContainer {
+    margin: 1.3rem 0;
+}
+
+.heading {
+    color: white;
+    padding: 0rem 0.3rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    background: linear-gradient(to right, #ec008c, #fc6767); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.horizental {
+    height: 0.3px;
+    background-color: gray;
+    margin-top: 0.5rem;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
