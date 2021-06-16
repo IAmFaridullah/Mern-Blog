@@ -1,5 +1,7 @@
 import './Header.css';
 
+import { Link } from 'react-router-dom';
+
 const Header = () => {
     return (
         <div className="header">
@@ -8,7 +10,9 @@ const Header = () => {
             </div>
             <div className="menu">
                 <ul>
+                    <Link to="/" style={{ textDecoration : "none"}}>
                     <li><a href="/">HOME</a></li>
+                    </Link>
                     <li><a href="/technology">TECHNOLOGY</a></li>
                     <li><a href="/security">SECURITY</a></li>
                     <li><a href="/about">PROGRAMMING</a></li>

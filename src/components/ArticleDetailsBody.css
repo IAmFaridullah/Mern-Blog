@@ -1,0 +1,6 @@
+.article-details-body {
+    margin: 0rem 10rem 0rem 10rem;
+    padding: 0.2rem 1rem 1rem 1rem;
+    display: grid;
+    grid-template-columns: 65% 35%;
+}

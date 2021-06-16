@@ -1,5 +1,7 @@
 import './ArticlesContainer.css';
 
+import { Link } from 'react-router-dom';
+
 import Article from './Article';
 
 
@@ -7,12 +9,14 @@ function ArticlesContainer(props) {
 
     return (
         <div className="articles-container">
+            <Link to="article-detail" style={{ color : "black", textDecoration : "none"}}>
             <Article 
             image="https://www.techworm.net/wp-content/uploads/2021/06/facebook-218x150.jpg" 
             title="Facebook Working On Its First Smartwatch To Be Launched Next Summer" 
             author="By Faridullah Khan" 
             pub_date="June 13, 2021" 
             />
+            </Link>
             <Article 
             image="https://www.techworm.net/wp-content/uploads/2021/06/APP-STORE-218x150.jpg" 
             title="Facebook Working On Its First Smartwatch To Be Launched Next Summer" 
