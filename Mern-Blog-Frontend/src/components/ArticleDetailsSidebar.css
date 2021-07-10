@@ -1,0 +1,58 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icons {
+    margin-top: 0.7rem;
+}
+
+.social-icons h2 {
+    text-align: center;
+    background-image: linear-gradient(to right, #ec008c, #fc6767);
+    background-clip: text;
+    font-family: 'Bubblegum Sans', cursive;
+    color: transparent;
+}
+
+.sidebar-social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+    margin-top: 0.7rem;
+}
+
+.recent-posts-title {
+    margin-top: 1.25rem;
+    width: 95%;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.recent-posts-title h3 {
+    margin: 0 1rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #ec008c, #fc6767); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.recent-posts {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recent-posts:first-child {
+    margin-top: 15rem;
+}
+
+.recent-post {
+    margin-bottom: 1.7rem;
+    width: 100%;
+}

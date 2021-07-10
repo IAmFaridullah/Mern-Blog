@@ -6,18 +6,20 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
+    font-weight: 400;
 }
 
 .logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 3px;
+    margin-bottom: 0px;
+    font-family: 'Bubblegum Sans', cursive;
 }
 
 .menu {
     display: flex; 
-    width: 33rem;
+    width: 39rem;
     font-weight: 600;
 }
 
@@ -32,15 +34,11 @@
 
 .menu ul li {
     padding-bottom: 1px;
-}
-
-.menu ul li a {
     color: white;
-    text-decoration: none;
 }
 
-.menu ul li a:hover {
-    border-bottom: 2px solid aqua;
+.menu ul li:hover {
+    border-bottom: 3px solid #f86fc1;
 }
 
 .search {

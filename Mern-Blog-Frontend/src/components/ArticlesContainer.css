@@ -3,5 +3,5 @@
     justify-content: space-evenly;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2rem;
-    padding: 0 2rem;
+    padding: 0 1rem;
 }
